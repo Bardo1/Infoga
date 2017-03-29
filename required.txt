@@ -1,4 +1,4 @@
+urllib3 
 requests
-urllib3
 urlparse
-
+lxml.html
