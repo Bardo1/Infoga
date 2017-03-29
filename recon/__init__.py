@@ -1,4 +1,4 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
-__all__ = ['googlesearch', 'bingsearch', 'pgpsearch','yahoosearch']
+__all__ = ['googlesearch', 'bingsearch', 'pgpsearch','yahoosearch','baidusearch','yandexsearch']

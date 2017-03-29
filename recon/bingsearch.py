@@ -22,9 +22,10 @@ class bing_search:
 		self.server = "www.bing.com"
 		self.host = "www.bing.com"
 		self.u_agent = "(Mozilla/5.0 (Windows; U; Windows NT 6.0;en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6"
-		self.t  = color.incolor.RESET  
-		self.r  = color.incolor.RED
-		self.y = color.incolor.YELLOW
+		cc = color.colors()
+		self.t  = cc.reset()  
+		self.r  = cc.red()
+		self.y = cc.yellow()
 
 	def run_search(self):
 		try:
@@ -40,8 +41,8 @@ class bing_search:
 			self.results = con.getfile().read()
 			self.tresult += self.results
 		except Exception as err: 
-			print "\t\t|"
-			print "\t\t|__"+self.r+" Server not found!!\n"+self.t
+			print "\t   |"
+			print "\t   |__"+self.r+" Server not found!!\n"+self.t
 
 	def get_emails(self):
 		_findemail = parser.inparser(self.tresult, self.keyword)
