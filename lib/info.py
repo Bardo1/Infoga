@@ -5,9 +5,10 @@
 
 __info__ = 'Gathering Email Information'
 __author__ = 'M@M@ (M4ll0k)'
-__version__ = 'v2.2'
-__codename__ = 'Sp4gh3tti'
-__name__= "infoga"
+__version__ = 'v3.0'
+__site__  = '@h4ckm0'
+__codename__ = 'Sn4d0'
+__name__  = 'Infoga'
 __giturl__ = "https://github.com/m4ll0k/infoga"
 
 
